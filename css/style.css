@@ -1,0 +1,104 @@
+.header{
+    padding: 24px 0;
+}
+.logo a{
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 24px;
+}
+.nav li a{
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav li a:hover{
+    opacity: 0.8;
+}
+.banner{
+    height: 500px;
+    background: url("../img/milan-zmatlo-RNf05GAbUTU-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.503);
+}
+.content-banner{
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 10;
+}
+.content-banner p{
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 8px 32px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(46, 46, 235);
+}
+.services{
+    padding: 80px 0
+}
+.services h1{
+    text-align: center;
+    margin-bottom: 76px;
+}
+.content{
+    padding: 30px 0
+}
+.feature{
+    height: 285px;
+    overflow: hidden;
+}
+.feature img{
+    height: 100%;
+}
+.content p{
+    margin: 16px 0;
+}
+.about{
+    background-color: #F0F0F0;
+}
+.image-1{
+    height: 500px;
+    overflow: hidden;
+}
+.image-1 img{
+    height: 100%;
+}
+.content-about p{
+    margin: 8px 0 40px;
+}
+.content-about ul{
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+.content-about li{
+    margin: 16px 0
+}
+.btn-green{
+    padding: 8px 32px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(44, 212, 145);
+}
+.footer{
+    padding: 24px 0;
+    color: white;
+    background-color: #1f1f1f;
+    margin-top: 80px;
+    text-align: center;
+}
